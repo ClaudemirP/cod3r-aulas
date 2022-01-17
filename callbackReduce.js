@@ -12,5 +12,7 @@ const somar = (acumulador, elemento) => acumulador + elemento
 const totalGeral = carrinho
     .map(getTotal)
     .reduce(somar)
-    
+
 console.log("Total: " + totalGeral)
+
+console.log([3,2,1,-3,4,7].reduce((acc,el) => acc + el,0))
